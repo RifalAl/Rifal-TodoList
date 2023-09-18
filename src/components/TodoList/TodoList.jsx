@@ -7,6 +7,7 @@ const TodoList = () => {
   let [dataList, setDataList] = useState([
     { id: 1, judul: "Meeting Dengan Client" },
     { id: 2, judul: "Menyiapkan Agenda Rapat" },
+    { id: 3, judul: "Menyiapkan Presentasi Rapat" },
   ]);
 
   const addListHandler = (newDataList) => {
